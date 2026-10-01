@@ -65,6 +65,7 @@ columns = [
     "ccf rank",
     "acronym",
     "track",
+    "name",
     "abstract deadline",
     "paper deadline",
     "link",

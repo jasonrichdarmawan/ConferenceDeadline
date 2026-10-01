@@ -8,10 +8,11 @@ def parse_args(argv: list[str] | None = None):
         action="store_true",
         help="Filter out conferences with passed deadlines",
     )
+    parser.add_argument("--category", type=str, nargs="+")
     parser.add_argument("--acronym", type=str)
     parser.add_argument("--name", type=str)
     parser.add_argument("--month", type=str, nargs="+")
-    parser.add_argument("--rank", type=str)
+    parser.add_argument("--rank", type=str, nargs="+")
     args = parser.parse_args(argv)
     return args
 
@@ -43,20 +44,29 @@ def group_conference_by_month(
 def get_conferences(
     df1: pd.DataFrame,
     no_past_deadline: bool = True,
+    category: str | list[str] | None = None,
     acronym: str | None = None,
     name: str | None = None,
     month: str | list[str] | None = None,
-    rank: str | None = None,
+    rank: str | list[str] | None = None,
 ) -> pd.DataFrame:
     df2 = df1.copy()
     if no_past_deadline:
         df2 = df2[df2["paper deadline"] >= pd.Timestamp.now()]
+    if category:
+        if isinstance(category, str):
+            category = [category]
+        df2 = df2[df2["ccf_category"].isin(category)]
     if acronym:
         df2 = df2[df2["acronym"] == acronym]
     if name:
         df2 = df2[df2["name"].str.contains(name, case=False, na=False)]
     if month:
-        df2 = df2[df2["month"].isin(month if isinstance(month, list) else [month])]
+        if isinstance(rank, str):
+            month = [month]
+        df2 = df2[df2["month"].isin(month)]
     if rank:
-        df2 = df2[df2["ccf rank"] == rank]
+        if isinstance(rank, str):
+            rank = [rank]
+        df2 = df2[df2["ccf rank"].isin(rank)]
     return df2

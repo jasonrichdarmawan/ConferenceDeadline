@@ -1,26 +1,31 @@
-acronym;track;name;abstract deadline;paper deadline;ccf rank;link
-AAMAS;AAMAS 2027 Blue Sky Ideas;International Joint Conference on Autonomous Agents and Multi-agent Systems;05/11/26;12/11/26;No;https://warwick.ac.uk/fac/sci/dcs/aamas2027/
-FAccT;FAccT 2027;2027 ACM Conference on Fairness, Accountability, and Transparency (FAccT);27/10/26;03/11/26;No;https://facctconference.org/2027/cfp.html
-AAMAS;AAMAS 2027 Workshops;International Joint Conference on Autonomous Agents and Multi-agent Systems;;29/10/26;No;https://warwick.ac.uk/fac/sci/dcs/aamas2027/
-NAACL;NAACL 2027 Main;North American Chapter of the Association for Computational Linguistics Association for Computational Linguistics;;12/10/26;B;https://2027.naacl.org/
-AAMAS;AAMAS 2027 Main Track;International Joint Conference on Autonomous Agents and Multi-agent Systems;01/10/26;08/10/26;B;https://warwick.ac.uk/fac/sci/dcs/aamas2027/
-ICLR;ICLR 2027;International Conference on Learning Representations;18/09/26;25/09/26;A;https://iclr.cc/
-EAAI;EAAI-27;The 17th Symposium on Educational Advances in Artificial Intelligence;01/09/26;08/09/26;No;https://aaai.org/conference/aaai/aaai-27/eaai-27-call/
-IAAI;IAAI-27;The Thirty-Ninth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-27);;08/09/26;No;https://aaai.org/conference/aaai/aaai-27/iaai-27-call/
-NAACL;NAACL 2027 Workshop;North American Chapter of the Association for Computational Linguistics Association for Computational Linguistics;;04/09/26;No;https://2027.naacl.org/
-SIGIR;SIGIR Futures;International ACM SIGIR Conference on Research and Development in Information Retrieval;;01/09/26;A;https://sigir.org/futures/
-AAAI;AAAI-27;The 41st Annual AAAI Conference on Artificial Intelligence;21/07/26;28/07/26;A;https://aaai.org/conference/aaai/aaai-27/
-EMNLP;EMNLP 2026;The 2026 Conference on Empirical Methods in Natural Language Processing;;25/05/26;B;https://2026.emnlp.org/
-AIES;AIES 2026;AI, Ethics, and Society;14/05/26;21/05/26;No;https://www.aies-conference.com/2026/
-NeurIPS;NeurIPS 2026 Main Conference;Conference on Neural Information Processing Systems;04/05/26;06/05/26;A;https://neurips.cc/
-NeurIPS;NeurIPS 2026 Evaluation and Datasets;Conference on Neural Information Processing Systems;04/05/26;06/05/26;No;https://neurips.cc/
-NeurIPS;NeurIPS 2026 Workshop;Conference on Neural Information Processing Systems;;20/04/26;No;https://neurips.cc/
-COLM;COLM 2026;The Third Annual Conference on Language Modeling;26/03/26;31/03/26;No;https://colm.cc/Conferences/2026/Dates
-ICML;ICML 2026 Workshops;International Conference on Machine Learning;;13/02/26;No;https://icml.cc/
-SIGKDD;KDD 2026 February Cycle;ACM SIGKDD Conference on Knowledge Discovery and Data Mining;01/02/26;08/02/26;A;https://kdd2026.kdd.org/schedule-at-a-glance/
-ICML;ICML 2026 Main Conference;International Conference on Machine Learning;23/01/26;28/01/26;A;https://icml.cc/
-IJCAI;IJCAI-26;International Joint Conference on Artificial Intelligence;12/01/26;19/01/26;B;https://2026.ijcai.org/
-ACL;ACL 2026;Annual Meeting of the Association for Computational Linguistics;;05/01/26;A;https://2026.aclweb.org/
-WWW;WWW 2026 Conference;The Web Conference (formerly International World Wide Web Conference);10/11/25;17/11/25;A;https://www2026.thewebconf.org/
-WWW;WWW 2026 Workshops;The Web Conference (formerly International World Wide Web Conference);;20/10/25;No;https://www2026.thewebconf.org/
-SIGKDD;KDD 2026 July Cycle;ACM SIGKDD Conference on Knowledge Discovery and Data Mining;24/07/25;31/07/25;A;https://kdd2026.kdd.org/schedule-at-a-glance/
+acronym;track;name;abstract deadline;paper deadline;ccf rank;link;ccf_category
+ACL;ACL 2027 Main (latest eligible ARR cycle - January window not yet confirmed open);Annual Meeting of the Association for Computational Linguistics;;04/01/27;A;https://2027.aclweb.org/calls/main/;Artificial Intelligence
+WSDM;WSDM 2027 Short Papers;ACM International Conference on Web Search and Data Mining;;17/11/26;B;https://www.wsdm-conference.org/2027/cfsp.html;Databases / Data Mining / Content Retrieval
+FG;FG 2027 Main Conference;IEEE International Conference on Automatic Face and Gesture Recognition;09/10/26;16/10/26;C;https://fg2027.ieee-biometrics.org/call-for-papers/;Artificial Intelligence
+ALT;ALT 2027 Main Conference;International Conference on Algorithmic Learning Theory;;12/10/26;C;https://algorithmiclearningtheory.org/alt2027/call-for-papers/;Artificial Intelligence
+COLING;COLING 2027 Main (October ARR submission);International Conference on Computational Linguistics;;12/10/26;B;https://aclrollingreview.org/dates;Artificial Intelligence
+AAMAS;AAMAS 2027 Blue Sky Ideas;International Joint Conference on Autonomous Agents and Multi-agent Systems;05/11/26;12/11/26;No;https://warwick.ac.uk/fac/sci/dcs/aamas2027/;Artificial Intelligence
+FAccT;FAccT 2027;2027 ACM Conference on Fairness, Accountability, and Transparency (FAccT);27/10/26;03/11/26;No;https://facctconference.org/2027/cfp.html;
+AAMAS;AAMAS 2027 Workshop proposals (not research papers);International Joint Conference on Autonomous Agents and Multi-agent Systems;;29/10/26;No;https://warwick.ac.uk/fac/sci/dcs/aamas2027/;Artificial Intelligence
+NAACL;NAACL 2027 Main (October ARR submission);North American Chapter of the Association for Computational Linguistics;;12/10/26;B;https://2027.naacl.org/calls/main_conference_papers/;Artificial Intelligence
+AAMAS;AAMAS 2027 Main Track;International Joint Conference on Autonomous Agents and Multi-agent Systems;01/10/26;08/10/26;B;https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/;Artificial Intelligence
+ICLR;ICLR 2027;International Conference on Learning Representations;18/09/26;25/09/26;A;https://iclr.cc/;Artificial Intelligence
+EAAI;EAAI-27;The 17th Symposium on Educational Advances in Artificial Intelligence;01/09/26;08/09/26;No;https://aaai.org/conference/aaai/aaai-27/eaai-27-call/;
+IAAI;IAAI-27;The Thirty-Ninth Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-27);;08/09/26;No;https://aaai.org/conference/aaai/aaai-27/iaai-27-call/;
+NAACL;NAACL 2027 Workshop proposals (not research papers);North American Chapter of the Association for Computational Linguistics;;04/09/26;No;https://2027.naacl.org/;Artificial Intelligence
+SIGIR;SIGIR Futures;International ACM SIGIR Conference on Research and Development in Information Retrieval;;01/09/26;A;https://sigir.org/futures/;Databases / Data Mining / Content Retrieval
+AAAI;AAAI-27;The 41st Annual AAAI Conference on Artificial Intelligence;21/07/26;28/07/26;A;https://aaai.org/conference/aaai/aaai-27/;Artificial Intelligence
+EMNLP;EMNLP 2026;The 2026 Conference on Empirical Methods in Natural Language Processing;;25/05/26;B;https://2026.emnlp.org/;Artificial Intelligence
+AIES;AIES 2026;AI, Ethics, and Society;14/05/26;21/05/26;No;https://www.aies-conference.com/2026/;
+NeurIPS;NeurIPS 2026 Main Conference;Conference on Neural Information Processing Systems;04/05/26;06/05/26;A;https://neurips.cc/;Artificial Intelligence
+NeurIPS;NeurIPS 2026 Evaluation and Datasets;Conference on Neural Information Processing Systems;04/05/26;06/05/26;No;https://neurips.cc/;Artificial Intelligence
+NeurIPS;NeurIPS 2026 Workshop;Conference on Neural Information Processing Systems;;20/04/26;No;https://neurips.cc/;Artificial Intelligence
+COLM;COLM 2026;The Third Annual Conference on Language Modeling;26/03/26;31/03/26;No;https://colm.cc/Conferences/2026/Dates;
+ICML;ICML 2026 Workshops;International Conference on Machine Learning;;13/02/26;No;https://icml.cc/;Artificial Intelligence
+SIGKDD;KDD 2026 February Cycle;ACM SIGKDD Conference on Knowledge Discovery and Data Mining;01/02/26;08/02/26;A;https://kdd2026.kdd.org/schedule-at-a-glance/;Databases / Data Mining / Content Retrieval
+ICML;ICML 2026 Main Conference;International Conference on Machine Learning;23/01/26;28/01/26;A;https://icml.cc/;Artificial Intelligence
+IJCAI;IJCAI-26;International Joint Conference on Artificial Intelligence;12/01/26;19/01/26;B;https://2026.ijcai.org/;Artificial Intelligence
+ACL;ACL 2026;Annual Meeting of the Association for Computational Linguistics;;05/01/26;A;https://2026.aclweb.org/;Artificial Intelligence
+WWW;WWW 2026 Conference;The Web Conference (formerly International World Wide Web Conference);10/11/25;17/11/25;A;https://www2026.thewebconf.org/;Interdisciplinary / General / Emerging Areas
+WWW;WWW 2026 Workshops;The Web Conference (formerly International World Wide Web Conference);;20/10/25;No;https://www2026.thewebconf.org/;Interdisciplinary / General / Emerging Areas
+SIGKDD;KDD 2026 July Cycle;ACM SIGKDD Conference on Knowledge Discovery and Data Mining;24/07/25;31/07/25;A;https://kdd2026.kdd.org/schedule-at-a-glance/;Databases / Data Mining / Content Retrieval

@@ -48,6 +48,7 @@ df2 = group_conference_by_month(df1)
 df2 = get_conferences(
     df2,
     no_past_deadline=args.no_past_deadline,
+    category=args.category,
     acronym=args.acronym,
     name=args.name,
     month=args.month,
@@ -59,6 +60,15 @@ df2 = df2.sort_values(
 )
 
 print("Filtered conferences:")
-print(df2.to_string(index=False))
+columns = [
+    "ccf_category",
+    "ccf rank",
+    "acronym",
+    "track",
+    "abstract deadline",
+    "paper deadline",
+    "link",
+]
+print(df2[columns].to_string(index=False))
 
 # %%

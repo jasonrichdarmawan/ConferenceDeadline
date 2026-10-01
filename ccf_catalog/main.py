@@ -54,6 +54,7 @@ print("Filtered conferences/journals:")
 print(
     df2[
         [
+            "category",
             "type", 
             "rank", 
             "acronym", 

@@ -1,4 +1,11 @@
 acronym;track;name;abstract deadline;paper deadline;ccf rank;link;ccf_category
+WWW;WWW 2027 Long Research Papers;The Web Conference (formerly International World Wide Web Conference);18/10/26;25/10/26;A;https://www2027.thewebconf.org/research-track-papers/;Interdisciplinary / General / Emerging Areas
+WWW;WWW 2027 Short Research Papers;The Web Conference (formerly International World Wide Web Conference);09/11/26;16/11/26;A;https://www2027.thewebconf.org/important-dates/;Interdisciplinary / General / Emerging Areas
+ECIR;ECIR 2027 Short Papers (submission availability unverified);European Conference on Information Retrieval;05/10/26;12/10/26;C;https://www.ecir2027.co.uk/call-for-short-papers;Databases / Data Mining / Content Retrieval
+WSDM;WSDM 2027 Demonstration Papers (submission availability unverified);ACM International Conference on Web Search and Data Mining;;15/10/26;B;https://www.wsdm-conference.org/2027/cfdemo.html;Databases / Data Mining / Content Retrieval
+ECIR;ECIR 2027 Resource Papers (submission availability unverified);European Conference on Information Retrieval;;02/11/26;C;https://www.ecir2027.co.uk/call-for-resource-papers;Databases / Data Mining / Content Retrieval
+SIGMOD;SIGMOD 2027 Regular Research Papers - Round 4;ACM SIGMOD Conference;10/10/26;17/10/26;A;https://2027.sigmod.org/calls_papers_sigmod_research.shtml;Databases / Data Mining / Content Retrieval
+EDBT;EDBT 2027 Research Papers - Cycle 3 (17:00 PT/PST cutoff conflict);International Conference on Extending Database Technology;;07/10/26;B;https://edbticdt2027.github.io/contents/EDBT_CFP.html;Databases / Data Mining / Content Retrieval
 ACL;ACL 2027 Main (latest eligible ARR cycle - January window not yet confirmed open);Annual Meeting of the Association for Computational Linguistics;;04/01/27;A;https://2027.aclweb.org/calls/main/;Artificial Intelligence
 WSDM;WSDM 2027 Short Papers;ACM International Conference on Web Search and Data Mining;;17/11/26;B;https://www.wsdm-conference.org/2027/cfsp.html;Databases / Data Mining / Content Retrieval
 FG;FG 2027 Main Conference;IEEE International Conference on Automatic Face and Gesture Recognition;09/10/26;16/10/26;C;https://fg2027.ieee-biometrics.org/call-for-papers/;Artificial Intelligence
